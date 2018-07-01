@@ -2,6 +2,7 @@ MANIFEST.in
 README.md
 setup.py
 threshold_method/__init__.py
+threshold_method/main.py
 threshold_method/somePython.py
 threshold_method_for_time_series.egg-info/PKG-INFO
 threshold_method_for_time_series.egg-info/SOURCES.txt

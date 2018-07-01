@@ -32,10 +32,10 @@ class time_series():
         elif self.file_extension == ".txt":
             data_set = np.loadtxt(self.file_path)
 
-        if square == "True":
+        if square:
             data_set2 = np.power(data_set.astype(float), 2)
 
-        elif square == "False":
+        else:
             data_set2 = data_set
 
         self.plot_data(data_set)

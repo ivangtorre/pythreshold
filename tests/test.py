@@ -6,7 +6,7 @@ Created on Fri Jun 29 21:57:09 2018
 @author: ivan
 """
 
-from myPackage import somePython
+from pythreshold_method.thresholds import time_series
 
 def test_fahrToKelv():
     '''

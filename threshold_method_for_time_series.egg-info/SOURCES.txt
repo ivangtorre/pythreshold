@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+pythreshold_method/__init__.py
+pythreshold_method/thresholds.py
+threshold_method_for_time_series.egg-info/PKG-INFO
+threshold_method_for_time_series.egg-info/SOURCES.txt
+threshold_method_for_time_series.egg-info/dependency_links.txt
+threshold_method_for_time_series.egg-info/requires.txt
+threshold_method_for_time_series.egg-info/top_level.txt

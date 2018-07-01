@@ -7,3 +7,4 @@ Created on Fri Jun 29 21:56:52 2018
 """
 
 from . import somePython
+from . import main

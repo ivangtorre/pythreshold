@@ -1,2 +1,2 @@
-include myPackage/packageData/myData.dat
+include pythreshold/data/data1.txt
 

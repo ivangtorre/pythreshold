@@ -6,7 +6,20 @@ Created on Fri Jun 29 21:57:09 2018
 @author: ivan
 """
 
-from pythreshold_method.thresholds import time_series
+from pythreshold.thresholds import time_series
+import unittest
+import os
 
-th_data = time_series("./../data/data1.txt")
-th_data.import_data()
+
+TESTDATA_FILENAME = os.path.join(os.path.dirname(__file__), '../data/', 'data1.txt')
+
+
+class TestThreshold(unittest.TestCase):
+
+    def test_initialite(self):
+        th_data = time_series(TESTDATA_FILENAME)
+        th_data.import_data()
+
+
+if __name__ == '__main__':
+    unittest.main()  # pragma: no cover

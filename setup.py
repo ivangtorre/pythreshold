@@ -12,14 +12,20 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='threshold-method-for-time-series',
+    name='pythreshold',
     version='0.1',
     packages=setuptools.find_packages(exclude=['tests*']),
     license='MIT',
-    description='This package implements the threshold algorithm for decimation and collapsing of time series',
+    description='Threshold Method for time series implements the threshold algorithm for decimation and collapsing of time series',
     long_description=open('README.md').read(),
     install_requires=['numpy'],
     url='https://github.com/ivangtorre/threshold-method-time-series',
     author='ivangtorre',
-    author_email='ivangonzaleztorre@gmail.com'
+    author_email='ivangonzaleztorre@gmail.com',
+    
+    test_suite='nose.collector',
+    tests_require=['nose'],
+    
+    # name, etc...
+    include_package_data=True,
 )
